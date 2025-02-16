@@ -7,7 +7,7 @@ using namespace std;
 
 class Shape :public Drawable{
 public:
-  virtual int getTotalArea() =0;
+  virtual int calcArea() =0;
 };
 
 
