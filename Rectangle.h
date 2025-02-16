@@ -15,5 +15,4 @@ public:
     int calcArea();
     Rectangle(int width, int height);
 
-
 };

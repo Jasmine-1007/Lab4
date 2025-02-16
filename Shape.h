@@ -7,10 +7,7 @@ using namespace std;
 
 class Shape :public Drawable{
 public:
-  int getTotalArea(Shape* s[]);
+  virtual int getTotalArea() =0;
 };
 
 
-void draw(Shape& s){
-    s.draw();
-}
