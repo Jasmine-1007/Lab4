@@ -1,5 +1,7 @@
+#pragma once
+
 #include <iostream>
-#include "Shape.cpp"
+#include "Shape.h"
 
 using namespace std;
 
@@ -11,5 +13,7 @@ class Rectangle :public Shape{
 public:
     void draw();
     int calcArea();
+    Rectangle(int width, int height);
+
 
 };

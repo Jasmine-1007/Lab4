@@ -1,9 +1,11 @@
+#pragma once
+
 #include <iostream>
-#include "Shape.cpp"
+#include "Shape.h"
 
 using namespace std;
 
 
-class Vehicle : public Shape{
-    
-}
+class Vehicle : public Drawable{
+    virtual void Drive()=0;
+};

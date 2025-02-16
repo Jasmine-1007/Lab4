@@ -1,5 +1,7 @@
+#pragma once
+
 #include <iostream>
-#include "Shape.cpp"
+#include "Shape.h"
 
 using namespace std;
 
@@ -12,5 +14,6 @@ class Circle{
 public:
     void draw();
     int calcArea();
+    Circle(int i);
 
 };
